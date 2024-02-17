@@ -36,6 +36,7 @@ app.post('/faucet', async function (req, res) {
     }
 })
 
+// this is used to assign port to nodejs APP
 app.listen(APP.PORT,(err)=>{
     console.log("Nodejs is running in port", APP.PORT);
 })
